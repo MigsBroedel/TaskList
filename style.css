@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+}
+
+body {
+    background-color: #3C2F2F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quad {
+    color: #FFF;
+    padding: 2;
+    display: flex;  
+    flex-flow: column wrap;
+    position: absolute;
+    justify-content: center;
+}
+
+.tarefas {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    gap: 18px;
+}
+
+.tarefa-shape-aberto {
+    position: fixed;
+    width: 346px;
+    height: 53px;
+    display: flex;  
+    flex-flow: column wrap;
+    background: #FFF4E6;
+    width: 346;
+    height: 53;
+    text-align: center;
+
+}
+
+.tarefas-shape-fechado {
+    display: none;
+}
+
+
+
